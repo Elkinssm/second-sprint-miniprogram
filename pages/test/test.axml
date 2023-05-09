@@ -1,4 +1,4 @@
 <view style="font-size:30px">
- Redireccionamientos en desarollo, estamos trabajando para mejorar tu experiencia.
+ Redireccionamientos en desarollo,estamos trabajando para mejorar tu experiencia.
 </view>
 <loading a:if="{{showLoading}}" />
