@@ -1,0 +1,16 @@
+<view>
+  <view class="modal-container">
+    <modal
+      title="{{title}}"
+      content="{{content}}"
+      visible="{{visible}}"
+      onClose="handleClose"
+      primaryButtonText="{{primaryButtonText}}"
+      onPrimaryButtonTap="onAcceptButtonTapOne"
+    >
+      <view class="container-modal-one" slot="header">
+        <icon class="icon-one" type="InformationCircleOutline" />
+      </view>
+    </modal>
+  </view>
+</view>

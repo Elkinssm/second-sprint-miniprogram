@@ -1,0 +1,19 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/soluciones-moviles/soluciones-moviles",
+    "pages/test/test",
+    "pages/login-screen/login-screen",
+    "pages/plan-detail/plan-detail",
+    "pages/soluciones-moviles/roaming-international/roaming-international",
+    "pages/soluciones-moviles/roaming-international/redirectToOfers/redirectToOfers",
+    "pages/soluciones-moviles/roaming-international/redirectToRoamingWeb/redirectToRoamingWeb",
+    "pages/soluciones-moviles/roaming-international/sessionIdConfig/sessionIdConfig"
+  ],
+  "window": {
+    "defaultTitle": "SuperApp Claro",
+    "titleBarColor": "#121D24",
+    "gestureBack": "YES",
+    "showTitleLoading": "YES"
+  }
+}

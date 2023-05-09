@@ -1,0 +1,13 @@
+<view 
+  onTap="onWebView" 
+  class="links {{under_line == true ? 'under-line': ''}}" 
+  style="{{styles}}">
+  <view>
+    <slot>Hiperlink Button</slot></view>
+  <image
+    a:if="{{stateImg}}"
+    style="background-color: {{ colorImg }}; width: {{ sizeImg }}; height: {{ sizeImg }}"
+    mode="scaleToFill"
+    src="{{srcImg}}"
+  />
+</view>

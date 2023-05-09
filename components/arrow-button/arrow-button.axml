@@ -1,0 +1,7 @@
+<view class="btn-account" onTap="onNav" data-item="{{ dataInfo }}">
+  <view class="info-account">
+    <image mode="scaleToFill" src="{{ imgSrc }}"/>
+    <view><slot>Arrow Button</slot></view>
+  </view>
+  <image mode="scaleToFill" src="{{ iconArrow }}"/>
+</view>

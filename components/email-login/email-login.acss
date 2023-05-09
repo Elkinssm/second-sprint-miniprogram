@@ -1,0 +1,132 @@
+.email-login-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.email-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.email-login-inputs {}
+
+.input-mail {
+  font-size: small;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.input-password {
+  font-size: small;
+  margin: 10px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.email {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #7F7F7F;
+  width: 320px;
+  height: 40px;
+}
+
+.password {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #7F7F7F;
+  width: 320px;
+  height: 40px;
+}
+
+.visibility-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 33px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.login-forgot-password {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.forgot-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login-email-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-login {
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: #E6E6E6;
+  width: 250px;
+  height: 50px;
+}
+
+.login-face-id {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.face-text {
+  padding-left: 10px;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.face-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.person-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.login-divider {
+  margin: auto;
+  margin-top: 30px;
+  height: 3px;
+  background-color: #cccccc;
+  width: 90%;
+}
+
+.login-register {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-text {
+  padding-left: 10px;
+  font-weight: bold;
+}

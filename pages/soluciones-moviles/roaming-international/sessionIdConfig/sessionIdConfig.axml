@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="form-container">
+    <form onSubmit="configurarSessionId">
+      <view class="form-item">
+        <textarea class="textarea" name="sessionID" placeholder="Ingrese SessionID" maxlength="1500"></textarea>
+      </view>
+      <button class="btn btn-buscar" form-type="submit">Set</button>
+    </form>
+  </view>
+</view>

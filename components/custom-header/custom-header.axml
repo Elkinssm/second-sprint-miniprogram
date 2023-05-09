@@ -1,0 +1,6 @@
+<view class="header-container">
+  <image mode="scaleToFill" src="{{iconUrl}}" class="header-icon" />
+  <view class="h1 claro-gray-text">
+    {{text}}
+  </view>
+</view>

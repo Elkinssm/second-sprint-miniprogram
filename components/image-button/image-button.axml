@@ -1,0 +1,6 @@
+<view class="item-flex" onTap="onNavigateTo">
+  <image style="width: 90rpx; height: 90rpx" mode="scaleToFill" src="{{dataItem.icono}}"/>
+  <view class="title"><slot>Image Button</slot></view>
+</view>
+
+

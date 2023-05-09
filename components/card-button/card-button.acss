@@ -1,0 +1,54 @@
+.h4 {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.claro-gray-text {
+  color: #4e4e4e;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-solid {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border: 4rpx solid #d5d5d5;
+  border-radius: 24rpx;
+}
+
+.button-outlined {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 60rpx 20rpx;
+}
+
+.button-name {
+  width: 100%;
+  margin-top: 16rpx;
+}
+
+.button-solid .button-icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.button-solid .button-name {
+  font-size: 20rpx;
+}
+
+.button-outlined .button-icon {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.button-outlined .button-name {
+  font-size: 32rpx;
+}

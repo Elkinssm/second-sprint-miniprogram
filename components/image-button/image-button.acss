@@ -1,0 +1,27 @@
+.item-flex {
+  flex: 0 0 calc(33.33% - 16px);
+  margin: 8px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  gap: 10rpx;
+}
+
+.item-flex:active {
+  background-color: #aaa;
+  transform: translateY(2px);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.item-flex image{
+  text-align: center;
+}
+
+.item-flex .title {
+  font-size: 25rpx;
+  font-weight: bold;
+  color: #474545;
+}

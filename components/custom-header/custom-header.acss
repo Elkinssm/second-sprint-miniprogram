@@ -1,0 +1,21 @@
+.h1 {
+  font-weight: bold;
+  font-size: 48rpx;
+}
+
+.claro-gray-text {
+  color: #4e4e4e;
+}
+
+.header-container {
+  padding: 60rpx 20rpx 80rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon {
+  height: 200rpx;
+  padding-right: 20rpx;
+}

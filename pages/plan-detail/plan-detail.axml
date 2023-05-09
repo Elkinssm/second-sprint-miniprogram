@@ -1,0 +1,181 @@
+<!--Contenedor de page-->
+<view class="container pb-8">
+  <view class="row pt-3">
+    <view class="col">
+      <image
+        class="image"
+        mode="widthFix"
+        style="width:30px; height: 30px;"
+        src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/phone_iphone/default/48px.svg"
+        alt="Descripción de la imagen"
+      />
+    </view>
+
+    <view class="col-6" style="font-weight: bold">
+      Número de línea
+    </view>
+    <view class="col">
+      {{lineNumber}}
+    </view>
+  </view>
+
+  <!--Título de pagina-->
+  <view class="row pt-2">
+    <view class="col">
+      <text class="pl-2">Tu plan:</text>
+    </view>
+  </view>
+
+  <view class="row pt-2 pl-4 pb-1">
+    <view class="col">
+      <text style="font-weight: bold">{{planName}}</text>
+    </view>
+  </view>
+
+
+  <view class="divider"></view>
+
+  <!--contenido plan-->
+
+  <view class="container-plan col">
+
+    <!--Datos-->
+    <view class="row">
+      <view class="col">
+        <view class="text-bold pl-5 pt-4">Datos</view>
+      </view>
+    </view>
+    <view class="row pl-5">
+      <view class="col-3 pb-9">
+        <image
+          class="image"
+          mode="widthFix"
+          style="width:40px; height: 40px;"
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/language/default/48px.svg"
+          alt="Descripción de la imagen"
+        />
+      </view>
+      <view class="col-8 pt-5">
+        <view class="text-bold" style="color: red; font-size: 20px;">
+          {{planText}}
+        </view>
+        <view class="text-muted" style="font-size: 11px; color: gray">
+          Navegación incluida
+        </view>
+        <view class="text-info pt-1" style="font-size: 12px">
+          Aunque hayas consumido los datos de tu plan tienes acceso a:
+        </view>
+
+        <view class="row pt-2">
+          <block a:for="{{ socialNetworks }}" a:for-item="network">
+            <view class="col-2 p-1">
+              <image
+                class="image"
+                mode="widthFix"
+                style="width:30px; height: 30px;"
+                src="{{network}}"
+                alt="Descripción de la imagen"
+              />
+            </view>
+          </block>
+        </view>
+
+      </view>
+    </view>
+
+
+    <view class="divider pb-2"></view>
+
+
+    <!--Voz-->
+    <view class="row pt-2 p-1 pl-5 pb-1">
+      <view class="col-3">
+        <view class="text-bold pl-1 pb-1">Voz</view>
+        <image
+          class="image"
+          mode="widthFix"
+          style="width:40px; height: 40px;"
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/timer/default/48px.svg"
+          alt="Descripción de la imagen"
+        />
+      </view>
+      <view class="col-8 pt-5">
+        <view class="text-bold" style="color: red; font-size: 20px;">
+          {{voiceText}}
+        </view>
+        <view class="text-muted" style="font-size: 11px; color: gray">
+          Segundos incluidos a móvil o fijo nacional
+        </view>
+      </view>
+    </view>
+
+    <view class="divider pb-2"></view>
+
+    <!--SMS-->
+    <view class="row pt-2 p-1 pl-5 pb-1 pt-2">
+      <view class="col-3">
+        <view class="text-bold pl-1 pb-1">SMS</view>
+        <image
+          class="image pt-2"
+          mode="widthFix"
+          style="width:40px; height: 40px;"
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/stream_apps/default/48px.svg"
+          alt="Descripción de la imagen"
+        />
+      </view>
+      <view class="col-8 pt-5">
+        <view class="text-bold" style="color: red; font-size: 20px;">
+          {{smsText}}
+        </view>
+        <view class="text-muted" style="font-size: 11px; color: gray">
+          Mensajes de texto incluidos
+        </view>
+      </view>
+    </view>
+
+    <view class="divider pb-2"></view>
+
+    <!--Descripcion Plan-->
+
+    <view class="row pt-2">
+
+      <view class="col">
+        <text onTap="toggleCollapse" class="pl-2 text-bold" style="color:red; font-size:20px">
+          Descripción del plan
+        </text>
+      </view>
+
+      <view class="pr-1">
+        <image
+          class="image"
+          mode="widthFix"
+          style="width:40px; height: 40px;"
+          src={{iconDefault}}
+          alt="Descripción de la imagen"
+          onTap="toggleCollapse"
+        />
+      </view>
+
+      <view a:if="{{showContent}}" class="planDescription">
+        <text>{{planDescription}}</text>
+
+      </view>
+
+    </view>
+
+    <view style="padding:10px">
+
+      <button class="btnDescription" onTap="onPayment">
+        <image
+          class="image"
+          mode="widthFix"
+          style="width:30px; height: 33px;"
+          src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/event_note/default/48px.svg"
+          alt="Descripción de la imagen"
+        />
+        Compra de Paquetes y Recargas
+      </button>
+
+    </view>
+
+  </view>

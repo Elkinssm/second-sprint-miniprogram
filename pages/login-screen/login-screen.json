@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "email-login":"/components/email-login/email-login",
+    "phone-login":"/components/phone-login/phone-login"
+  },
+  "styleIsolation": "apply-shared"
+}

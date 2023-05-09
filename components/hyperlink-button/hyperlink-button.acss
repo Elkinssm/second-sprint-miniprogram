@@ -1,0 +1,21 @@
+.links {
+  display: flex;
+  gap: 10rpx;
+  cursor: pointer;
+  align-items: center;
+  font-size: 25rpx;
+}
+
+.links image {
+  border-radius: 100%;
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.under-line {
+  text-decoration: underline;
+}
+
+
+
+

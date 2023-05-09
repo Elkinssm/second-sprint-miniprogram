@@ -1,0 +1,18 @@
+<view>
+  <view class="modal-container">
+    <modal
+      title="{{title}}"
+      content="{{content}}"
+      visible="{{visible}}"
+      onClose="handleClose"
+      primaryButtonText="{{primaryButtonText}}"
+      secondaryButtonText="{{secondaryButtonText}}"
+      onPrimaryButtonTap="onAcceptButtonTap"
+      onSecondaryButtonTap="onCancelButtonTap"
+    >
+      <view class="container-modal" slot="header">
+        <icon class="icon" type="InformationCircleOutline" />
+      </view>
+    </modal>
+  </view>
+</view>

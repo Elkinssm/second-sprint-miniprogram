@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "loading":"/components/loading-component/loading-component"
+  },
+  "styleIsolation": "apply-shared"
+}

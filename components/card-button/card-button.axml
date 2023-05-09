@@ -1,0 +1,10 @@
+<view
+  data-button="{{id}}"
+  class="button-container {{solid ? 'button-solid' : 'button-outlined'}}"
+  onTap="handleTap"
+>
+  <image mode="scaleToFill" src="{{iconUrl}}" class="button-icon" />
+  <view class="h4 claro-gray-text button-name">
+    {{text}}
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<view class="email-login-container">
+  <view class="email-login-inputs">
+    <form class="email-form">
+      <label class="input-mail">
+        Escribe tu correo electrónico
+        <input class="email" type="email" placeholder="correo@gmail.com" />
+      </label>
+      <label class="input-password">
+        Escribe tu contraseña
+        <input class="password" type="password" placeholder="Contraseña" />
+        <image class="visibility-icon" src="../../assets/icons/visibility.svg" />
+      </label>
+    </form>
+
+  </view>
+
+  <view class="login-forgot-password">
+    <navigator class="forgot-text" url="/pages/test/test">
+      ¿Olvidaste la clave?
+    </navigator>
+  </view>
+  <view class="login-email-button">
+    <button class="btn-login">
+      Ingresar
+    </button>
+
+  </view>
+  <view class="login-face-id">
+    <image class="face-icon" src="../../assets/icons/face-id.svg" />
+    <text class="face-text">
+      Ingresa con Face ID
+    </text>
+
+  </view>
+  <view class="login-divider">
+
+  </view>
+
+  <view class="login-register">
+    <image class="person-icon" src="../../assets/icons/person-add.svg" />
+    <text class="register-text">
+      Registrarse
+    </text>
+  </view>
+
+</view>

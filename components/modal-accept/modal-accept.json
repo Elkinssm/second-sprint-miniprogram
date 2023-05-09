@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "styleIsolation": "apply-shared",
+  "usingComponents": {
+    "icon": "antd-mini/es/Icon/index",
+    "modal": "antd-mini/es/Modal/index"
+  }
+}

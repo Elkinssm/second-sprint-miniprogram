@@ -1,0 +1,13 @@
+<block a:for="{{ list }}" a:key="*item">
+  <view class="ol-list {{padding ? 'claro-padding-text' : 'claro-small-padding-text'}}">
+    <view a:if="{{ isCustomNumber }}" class="h2 claro-red-text number">
+      {{customNumber}}.
+    </view>
+    <view a:else class="h2 claro-red-text number">
+      {{index + 1}}.
+    </view>
+    <view class="claro-gray-300-text text">
+      {{item.text}}
+    </view>
+  </view>
+</block>

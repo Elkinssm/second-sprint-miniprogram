@@ -1,0 +1,24 @@
+.container-modal-one {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-one {
+  font-size: 60px;
+  color: #F6392C;
+}
+
+.ant-modal-body {
+  width: 370px;
+}
+
+.ant-modal-body-footer-vertical-primary {
+  background-color: #F6392C;
+  border-radius: 5pX;
+  color: #ffffff;
+  width:95%;
+  height: 30px;
+  margin: 0 10px;
+
+}
